@@ -91,3 +91,4 @@ See `docs/test_plan.md` (test cases with expected results and a column for actua
 
 > **Team: edit this before submitting so it matches what really happened.**
 The original `index.php`, `game.php`, `functions.php` and `style.css` were written by the team. Claude (Anthropic) was used to generate the multi-player turn system, login/registration, the trivia question bank, the AI difficulty engine, the analytics and leaderboard pages, the CSS additions and this documentation, based on the team's original files and the course specification. The team reviewed, tested and can explain all code.
+<!-- Deployment note: Keep the original folder structure intact when uploading to CODD so PHP includes, stylesheets, and image paths resolve correctly. -->
