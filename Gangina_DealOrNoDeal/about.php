@@ -1,5 +1,5 @@
 <?php
-// about.php - rules, Banker strategy, AI rules and team (public page)
+// about.php - rules, Banker strategy, AI rules and team (public pages)
 require_once 'includes/functions.php';
 
 page_header('Rules & About', 'How the game, the Banker and the AI work', 'about');
