@@ -16,7 +16,7 @@ Two or three registered players sit at one table. Each has their own shuffled bo
 4. `data/.htaccess` blocks direct downloads of `users.json`. Check that https://codd.cs.gsu.edu/~YOUR_GSU_ID/Gangina_DealOrNoDeal/data/users.json returns *403 Forbidden*.
 5. Open the live URL in a private window, register two accounts and play a full game.
 
-## How to play
+## How to play this game
 
 1. **Register** and **log in**.
 2. In the **lobby** add one or two more registered players (their username and password are verified; they must already have accounts). Press *Start new game*.
