@@ -13,6 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!csrf_valid()) {
         $errors['form'] = 'Your form expired. Please try again.';
     } else {
+        // Normalize username input before authentication.
         $username = trim((string)filter_input(INPUT_POST, 'username', FILTER_UNSAFE_RAW));
         $password = (string)($_POST['password'] ?? '');
         $name = ($username !== '' && $password !== '') ? user_verify($username, $password) : null;
