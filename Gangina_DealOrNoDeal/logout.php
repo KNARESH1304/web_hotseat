@@ -14,7 +14,7 @@ if (ini_get('session.use_cookies')) {
 session_destroy();
 setcookie('dond_can_resume', '', time() - 3600, '/');
 
-session_start();               // fresh empty session just to carry the message
+session_start();               // fresh empty session just to carry the messages
 session_regenerate_id(true);
 flash_set('ok', 'You have been logged out.');
 redirect('login.php');
