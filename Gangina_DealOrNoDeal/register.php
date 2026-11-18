@@ -1,5 +1,5 @@
 <?php
-// register.php - create an account (saved to data/users.json)
+// register.php - creates an account (saved to data/users.json)
 require_once 'includes/functions.php';
 
 if (!empty($_SESSION['user'])) {
