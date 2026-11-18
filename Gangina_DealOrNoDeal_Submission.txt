@@ -1,0 +1,3 @@
+CODD URL:     https://codd.cs.gsu.edu/~YOUR_GSU_ID/Gangina_DealOrNoDeal/
+GitHub URL:   https://github.com/OWNER/REPO
+Video URL:    https://youtu.be/XXXXXXXXX
