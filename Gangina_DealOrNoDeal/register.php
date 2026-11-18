@@ -10,6 +10,7 @@ $errors   = [];
 $username = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    // Process registration only when the form is submitted via POST.
     $username = trim((string)filter_input(INPUT_POST, 'username', FILTER_UNSAFE_RAW));
     if (!csrf_valid()) {
         $errors['form'] = 'Your form expired. Please try again.';
